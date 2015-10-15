@@ -11,7 +11,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FComponentOscReceivedSignature, con
 
 
 UCLASS(ClassGroup=OSC, meta = (BlueprintSpawnableComponent))
-class UOscReceiverComponent : public UActorComponent
+class OSC_API UOscReceiverComponent : public UActorComponent
 {
     GENERATED_BODY()
 
